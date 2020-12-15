@@ -1,0 +1,12 @@
+{
+  "regions": ["cdg1"],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/api/redirect" }
+  ],
+  "functions": {
+    "api/redirect.js": {
+      "includeFiles": "_site/index.html"
+    }
+  }
+}

@@ -1,1 +1,21 @@
-vercel-cli-routing-testcase
+# vercel-cli-routing-testcase
+
+Set framework preset to eleventy
+
+Check those URLs:
+
+```
+/               maps to index.md
+/README         maps to README.md
+/different      maps to different.md
+/api/hello      
+/api/inlcude
+```
+
+Bug 1: handle filesystem does not work
+
+Bug 2: includes does not work (see /api/include)
+
+The code works on local `vercel dev` on Windows running CLI 21.0.1 dev (beta).
+
+See the deployed code at: https://vercel-cli-routing-testcase.vercel.app
