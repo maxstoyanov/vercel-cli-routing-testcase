@@ -63,3 +63,8 @@ The inclue does not work and the function emits:
 ```
 ENOENT: no such file or directory, open '/var/task/_site/index.html
 ```
+
+Fun fact: The code works with `vercel dev` on my machine. So the includes do not
+work as expected. Also I do not understand how the `includeFiles` directive is
+supposed to work. I set it up but no matter what I try I can't get it to include
+the file that is generated during the build stage.
