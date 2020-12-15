@@ -1,6 +1,8 @@
 # vercel-cli-routing-testcase
 
-Set framework preset to eleventy
+This repository demonstrates two bugs that I have.
+
+> Set framework preset to eleventy!
 
 Check those URLs:
 
