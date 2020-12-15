@@ -4,10 +4,10 @@ This repository demonstrates two bugs that I have.
 
 > Set framework preset to eleventy!
 ```
-build command: npm build
+build command: npm run build
 output directory: _site
 install command: npm install
-development command: npx @11ty/eleventy --serve --watch --port $PORT
+development command: npx @11ty/eleventy --input=src --output=_site --serve --watch --port $PORT
 ```
 
 Check those URLs:
